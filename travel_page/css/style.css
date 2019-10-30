@@ -1,0 +1,79 @@
+.customNav{
+    color: white;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+
+.card1{
+    background-image: url(/images/wing.png);
+}
+
+.btn{
+    background-color: orange;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(221, 144, 0);
+}
+
+.jumbotron {
+    background-image: url("../images/mountain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sectionHeading{
+      color: orange;
+      text-align: center;
+      align-items: center;
+      font-size: 18pt;
+  }
+
+  .sectionHeading2{
+    text-align: center;
+    align-items: center;
+}
+
+  .cut{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+  }
+
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+
+  .mailing{
+      background-image: url(../images/bridge.png);
+      display: flex;
+      background-size: cover;
+      height: 500px;
+      width: 100%;
+      color: white;
+      }
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: grey;
+    color: white;
+    height: 30px;
+    width: 100%;
+}

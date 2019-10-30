@@ -1,0 +1,12 @@
+/* Style your dropdown below! */
+ul{
+    margin: 0 auto;
+    padding: none;
+    list-style-type: none;
+    text-align: center;
+    width: 10px;
+    font-family: sans-serif;
+}
+li{
+    cursor: pointer;
+}
