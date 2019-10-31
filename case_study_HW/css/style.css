@@ -1,5 +1,12 @@
-.body {
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 1;
+    transition: 2s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 .customNav{
@@ -39,4 +46,9 @@
     height: 280px;
     width: 100%;
     object-position: 0 29%;
+    border: none;
 }
+
+.fade {
+    opacity: 100%;
+  }
